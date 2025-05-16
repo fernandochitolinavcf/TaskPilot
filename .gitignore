@@ -1,0 +1,70 @@
+# Build
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
+
+# Rider / VSCode
+.idea/
+.vscode/
+.vs/
+
+# .NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.db-shm
+*.db-wal
+
+# Entity Framework Core Migrations metadata
+Migrations/
+
+# User-specific files
+*.swp
+*.sln.docstates
+*.userosscache
+*.sln.ide
+
+# dotnet tools
+/.tools/
+
+# macOS / Linux / Windows OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
+*.testresults
+*.trx
+
+# Logs
+logs/
+*.log
+
+# Publish output
+publish/
+out/
+
+# NCrunch
+*.ncrunch*
+.*crunch*.local.xml
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# JetBrains Rider
+.idea/
+
+# Sonar
+.sonar/
+
+# Coverage reports
+coverage/
